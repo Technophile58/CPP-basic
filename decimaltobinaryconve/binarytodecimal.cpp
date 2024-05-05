@@ -12,7 +12,7 @@ int Binarytodec(int n)
     {
         int bit = (n % 10);
         dec = dec+bit*pow(2,i++); // formula used for reversing any number
-        // n=n>>1; 
+        
         n = (n/10);
     }
   return dec;
