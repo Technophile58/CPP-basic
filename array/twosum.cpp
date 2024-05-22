@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 pair<int,int>checkTwosum(int arr[],int size,int target){
-    //assuming (-1,-1 )as no answer fund
+    //assuming (-1,-1 )as no answer find
     pair<int,int>ans=make_pair(-1,-1);
 for(int i=0;i<size;i++){
     for(int j=0;j<size;j++){
