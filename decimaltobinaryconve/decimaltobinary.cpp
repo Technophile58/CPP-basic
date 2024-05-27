@@ -11,7 +11,7 @@ int decimaltoBinary(int n)
     while (n != 0)
     {
         int bit = (n & 1);
-        binaryno = bit * pow(10, i++) + binaryno; // formula used for reversing any number
+        binaryno = bit * pow(10, i++) + binaryno; // formula used for reversing 
         n = n >> 1;
     }
   return binaryno;
